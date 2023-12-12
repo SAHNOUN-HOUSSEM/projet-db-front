@@ -1,0 +1,25 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 179, 132, 0.3);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  text-align: center;
+  animation: fadeIn 6s ease;
+}
+
+.footer p {
+  margin: 0; /* Remove default margin for the paragraph */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(255, 242, 228);
+}
+.image {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  max-width: 100%;
+}

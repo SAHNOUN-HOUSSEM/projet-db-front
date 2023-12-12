@@ -1,0 +1,36 @@
+.recette-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.tips-section,
+.next-steps-section {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ffb8a4;
+  color: #fff;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #ff6767;
+}
+
+Link {
+  color: #ff6767;
+  text-decoration: none;
+}
+
+Link:hover {
+  text-decoration: underline;
+}

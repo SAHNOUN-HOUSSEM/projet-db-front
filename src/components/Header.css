@@ -1,0 +1,46 @@
+p {
+  font-family: "Josefin Sans", sans-serif !important;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.7;
+  color: #001f48;
+  margin: 0;
+}
+
+.section-fluid-main {
+  position: absolute;
+  width: calc(100% - 40px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto; /* Auto margin for centering */
+  margin-right: auto; /* Auto margin for centering */
+  max-width: 1050px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  align-self: flex-start; /* Updated to align with the start of the flex container */
+  z-index: 3;
+}
+
+.section-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  justify-content: center;
+}
+
+.section-col {
+  position: relative;
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 50px;
+  text-align: left;
+}
+.title {
+  text-align: center;
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgb(255, 152, 34);
+}
